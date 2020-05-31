@@ -4,4 +4,4 @@ r = float(input("please enter the circle's radius: "))
 print ('You entered', r, '. Calculating now...')
 area = math.pi * (r**2)
 circumfrence = 2 * math.pi * r
-print ('The area of the circle is ', area, 'and the circumfrence of the circle is ', circumfrence, '.')
+print ('The area of the circle is ', round(area,2), 'and the circumfrence of the circle is ', round(circumfrence,2), '.')
