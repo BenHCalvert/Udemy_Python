@@ -3,6 +3,6 @@ person = {'name': 'Ben', 'gender': 'human', 'age': '29', 'address': 'Boise, ID',
 
 print ('This program will give you information about Ben.')
 
-uinput = input('What would you like to know about Ben?')
+uinput = input('What would you like to know about Ben?').lower()
 
 print(person.get(uinput, 'Sorry, Ben does not have that quality'))
