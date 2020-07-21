@@ -8,9 +8,11 @@ total_classes = float( input('What is the total number of classes? '))
 avg_grade = (grade1 + grade2) / 2
 attendance = (total_classes - absences) / total_classes
 
+# print overall grade and att. rate
 print('Average grade: ', round(avg_grade,2))
 print('Attendance rate: ', str(round((attendance * 100),2))+'%')
 
+# logic tests to determine if student passed
 if (avg_grade >= 6):
     if(attendance >= 0.8):
         print('The student has passed')
