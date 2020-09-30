@@ -27,7 +27,7 @@ while (data_valid == False):
     total_classes = float( input('What is the total number of classes? '))
     if total_classes < 0 or total_classes > 10:
         print("Grade should be between 0 and 10.")
-        continue
+        continue #don't think I actuall need the continue here.
     else:
         data_valid = True
 
