@@ -2,9 +2,9 @@
 # get GRADE 1 ---- DATA VALIDATION
 data_valid = False
 while (data_valid == False):    
-    grade1 = float( input('What is the grade on the first test? '))
+    grade1 = float( input("What is the grade on the first test? "))
     if grade1 < 0 or grade1 > 10:
-        print('Grade should be between 0 and 10.')
+        print("Grade should be between 0 and 10.")
         continue
     else:
         data_valid = True
@@ -14,7 +14,7 @@ data_valid = False
 while (data_valid == False):    
     grade2 = float( input('What is the grade on the second test? '))
     if grade2 < 0 or grade2 > 10:
-        print('Grade should be between 0 and 10.')
+        print("Grade should be between 0 and 10.")
         continue
     else:
         data_valid = True
@@ -26,7 +26,7 @@ data_valid = False
 while (data_valid == False):    
     total_classes = float( input('What is the total number of classes? '))
     if total_classes < 0 or total_classes > 10:
-        print('Grade should be between 0 and 10.')
+        print("Grade should be between 0 and 10.")
         continue
     else:
         data_valid = True
