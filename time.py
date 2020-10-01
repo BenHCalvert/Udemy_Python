@@ -8,6 +8,7 @@ current_time = t.time()
 delivery_time = current_time + (86400 * 7)
 print(t.localtime(delivery_time))
 
+# creates a 5 second wait between lines of code.
 t.sleep(5)
 
 
